@@ -11,5 +11,3 @@ function findNumRoutes(sizeGrid) {
 }
 
 console.log(findNumRoutes(20))
-
-
