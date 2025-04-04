@@ -17,5 +17,5 @@ var permutator = function(array) {
 	return [...new Set(mutator(array).map(v=>v.join('')))];
 }
 
-var answer = permutator(['a', 'a', 'b', 'b']);
-console.log(answer)
+var answer = permutator(['0','1','2','3','4','5','6','7','8','9']);
+console.log(answer[999999])

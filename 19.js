@@ -13,21 +13,10 @@ var daysInMonths = {
 	11:30,
 	12:31
 };
-var daysInMonthsLeap = {
-	0:0,
-	1:31,
-	2:29,
-	3:31,
-	4:30,
-	5:31,
-	6:30,
-	7:31,
-	8:31,
-	9:30,
-	10:31,
-	11:30,
-	12:31
-};
+
+var daysInMonthsLeap = daysInMonths;
+daysInMonthsLeap[2] = 29;
+
 var numSundays = 0;
 var numDaysTotal = 0;
 for (var year = 1901; year < 2001; year++) {	

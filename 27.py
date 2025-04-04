@@ -1,5 +1,6 @@
 import math
 
+
 def isPrime(num):
     if num == 3 or num == 2:
         return True
